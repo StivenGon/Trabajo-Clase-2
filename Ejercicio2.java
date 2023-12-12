@@ -7,13 +7,13 @@ public class Ejercicio2 {
     public static void main(String[] args) {
 
     // Variables
-    Scanner scannner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     int num1, num2;
     // Entrada
     System.out.print("Digite primer numero: ");
-    num1 = scannner.nextInt();
+    num1 = scanner.nextInt();
     System.out.print("Digite segundo numero: ");
-    num2 = scannner.nextInt();
+    num2 = scanner.nextInt();
     // Condicional
     if (num1>num2){
         System.out.print("El primer numero es el mayor");
@@ -22,6 +22,6 @@ public class Ejercicio2 {
     } else {
         System.out.print("Ambos numeros son iguales");
     }
-    scannner.close();
+    scanner.close();
     }
 }
